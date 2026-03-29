@@ -36,9 +36,13 @@
             android:label="@string/eq_dialog_title">
             <intent-filter>
                 <action
+                    android:name="android.intent.action.MAIN" />
+                <action
                     android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
                 <category
                     android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
                 <category
                     android:name="android.intent.category.CATEGORY_CONTENT_MUSIC" />
             </intent-filter>
